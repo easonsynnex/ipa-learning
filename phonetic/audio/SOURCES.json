@@ -1,0 +1,1090 @@
+[
+  {
+    "kind": "consonant",
+    "key": "b",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/b-sound/examples/sound.mp4",
+    "local": "audio/consonants/b-sound/examples/sound.mp4",
+    "bytes": 42594,
+    "sha256": "5261358cacc1570c115f764e164daf8b1b292ae7c8bbc31dafa1424167307379"
+  },
+  {
+    "kind": "consonant",
+    "key": "d",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/d-sound/examples/sound.mp4",
+    "local": "audio/consonants/d-sound/examples/sound.mp4",
+    "bytes": 31671,
+    "sha256": "e5238dbd76d3c3c6ffbc173ea1c1554f67349e2798fc062baab3f56c70911b2a"
+  },
+  {
+    "kind": "consonant",
+    "key": "tʃ",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/es/ch-sound/examples/sound.mp4",
+    "local": "audio/consonants/es/ch-sound/examples/sound.mp4",
+    "bytes": 44276,
+    "sha256": "7bd8776e53b8a23b3ff773a0ece6e96497f56d57d0ae74fde512f8edd9871123"
+  },
+  {
+    "kind": "consonant",
+    "key": "ð",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/es/eth-low-sound/examples/sound.mp4",
+    "local": "audio/consonants/es/eth-low-sound/examples/sound.mp4",
+    "bytes": 42214,
+    "sha256": "771d5009673333710a7cac4698cabd2aa84f50e084ee9fc4697d3cccd59d279d"
+  },
+  {
+    "kind": "consonant",
+    "key": "dʒ",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/es/jya-sound/examples/sound.mp4",
+    "local": "audio/consonants/es/jya-sound/examples/sound.mp4",
+    "bytes": 42704,
+    "sha256": "c7e21d4691b52a674d3069141716e312119538c3664f0d4c85ed6fc032a526ed"
+  },
+  {
+    "kind": "consonant",
+    "key": "θ",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/es/theta-sound/examples/sound.mp4",
+    "local": "audio/consonants/es/theta-sound/examples/sound.mp4",
+    "bytes": 53165,
+    "sha256": "71ca8aecf59266c67787bb60e424b67f77d0cd661ce5d2c1e8f385c45818094c"
+  },
+  {
+    "kind": "consonant",
+    "key": "w",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/es/w-sound/examples/sound.mp4",
+    "local": "audio/consonants/es/w-sound/examples/sound.mp4",
+    "bytes": 73520,
+    "sha256": "68364c49cec5178d718cc85085041b802c120179c8ee92c276a462313424624a"
+  },
+  {
+    "kind": "consonant",
+    "key": "j",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/es/yot-sound/examples/sound.mp4",
+    "local": "audio/consonants/es/yot-sound/examples/sound.mp4",
+    "bytes": 50905,
+    "sha256": "5c8595ac0b0202b193b1584997b204e4e0312940aa0037b6a97ada2784457344"
+  },
+  {
+    "kind": "consonant",
+    "key": "ʃ",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/es/zh1-sound/examples/sound.mp4",
+    "local": "audio/consonants/es/zh1-sound/examples/sound.mp4",
+    "bytes": 42049,
+    "sha256": "01b4cea85c77c34a9880e3fd5ed05d4b65460693f90016e017225e40f674ce8f"
+  },
+  {
+    "kind": "consonant",
+    "key": "ʒ",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/es/zh2-sound/examples/sound.mp4",
+    "local": "audio/consonants/es/zh2-sound/examples/sound.mp4",
+    "bytes": 30116,
+    "sha256": "ea49511b2288c0d0e14bf45557b0f5af7749e724c902cfc73cb91c0fe60a2a9a"
+  },
+  {
+    "kind": "consonant",
+    "key": "f",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/f-sound/examples/sound.mp4",
+    "local": "audio/consonants/f-sound/examples/sound.mp4",
+    "bytes": 49961,
+    "sha256": "5758a9dde5f09af82c684ab37f4475dcf3c6559bdc0ea98f14bba4165f5e75e4"
+  },
+  {
+    "kind": "consonant",
+    "key": "ɡ",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/g-sound/examples/sound.mp4",
+    "local": "audio/consonants/g-sound/examples/sound.mp4",
+    "bytes": 28034,
+    "sha256": "0f390287b5bf65abbe4c6206cce53a37745c688f710ab88bfa739eeda8b29884"
+  },
+  {
+    "kind": "consonant",
+    "key": "h",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/h-sound/examples/sound.mp4",
+    "local": "audio/consonants/h-sound/examples/sound.mp4",
+    "bytes": 27759,
+    "sha256": "01f47ae5a7697711f73a232a49d204f7aa4b2e650979fd23910a62edde8295b6"
+  },
+  {
+    "kind": "consonant",
+    "key": "k",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/k-sound/examples/sound.mp4",
+    "local": "audio/consonants/k-sound/examples/sound.mp4",
+    "bytes": 30106,
+    "sha256": "941b0b2bd60d0e40d4f0b4c542924fb01deb5e1c930128ea845dfc3011e4dfc1"
+  },
+  {
+    "kind": "consonant",
+    "key": "l",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/l-sound/examples/sound.mp4",
+    "local": "audio/consonants/l-sound/examples/sound.mp4",
+    "bytes": 44594,
+    "sha256": "6e9fdc37589f96e9736c22ee227cc803ad4ebfecc2a7f64d010903927e32f669"
+  },
+  {
+    "kind": "consonant",
+    "key": "m",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/m-sound/examples/sound.mp4",
+    "local": "audio/consonants/m-sound/examples/sound.mp4",
+    "bytes": 31888,
+    "sha256": "d4cc0e3a78805d960af6ab1769f9b90a5e67cb031385bbfb2fb96cc87dbfc2f2"
+  },
+  {
+    "kind": "consonant",
+    "key": "n",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/n-sound/examples/sound.mp4",
+    "local": "audio/consonants/n-sound/examples/sound.mp4",
+    "bytes": 36413,
+    "sha256": "89dee07621446990814ab1e93359da3fad12633774b1faa9c2a0f62fda2dab64"
+  },
+  {
+    "kind": "consonant",
+    "key": "ŋ",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/ng-sound/examples/sound.mp4",
+    "local": "audio/consonants/ng-sound/examples/sound.mp4",
+    "bytes": 35515,
+    "sha256": "638065cf0c5c91eaea65fece7f6fa01882afebccbe9e5aa0cdd68be70f430541"
+  },
+  {
+    "kind": "consonant",
+    "key": "p",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/p-sound/examples/sound.mp4",
+    "local": "audio/consonants/p-sound/examples/sound.mp4",
+    "bytes": 35126,
+    "sha256": "5ffa0c16b9bf07ed33fda85128c1bb7b2ebd1e524f728912a2782e9dafd33001"
+  },
+  {
+    "kind": "consonant",
+    "key": "r",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/r-sound/examples/sound.mp4",
+    "local": "audio/consonants/r-sound/examples/sound.mp4",
+    "bytes": 32199,
+    "sha256": "2c607f7094fa3d7f509aa764a7a631145a4026d1c4da26db8500167975c0ead5"
+  },
+  {
+    "kind": "consonant",
+    "key": "s",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/s-sound/examples/sound.mp4",
+    "local": "audio/consonants/s-sound/examples/sound.mp4",
+    "bytes": 47723,
+    "sha256": "f76271cc3303714df0f6769c3e2b3a12b78e822194d56b1b631785acc4893910"
+  },
+  {
+    "kind": "consonant",
+    "key": "t",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/t-sound/examples/sound.mp4",
+    "local": "audio/consonants/t-sound/examples/sound.mp4",
+    "bytes": 27196,
+    "sha256": "c269901b5ef779e7a138aa21f2b0272a35a65000901d9c7229cb681160ab784b"
+  },
+  {
+    "kind": "consonant",
+    "key": "v",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/v-sound/examples/sound.mp4",
+    "local": "audio/consonants/v-sound/examples/sound.mp4",
+    "bytes": 40311,
+    "sha256": "a98d696390d109be9c82a33502c986813d86024bf90d95b28e0757ed569d37fd"
+  },
+  {
+    "kind": "consonant",
+    "key": "z",
+    "source": "https://soundsofspeech.uiowa.edu/assets/phonemes/z-sound/examples/sound.mp4",
+    "local": "audio/consonants/z-sound/examples/sound.mp4",
+    "bytes": 35745,
+    "sha256": "5b6792b0d03a30f0ab1f1854ee1e71c6ca4058d06f572336da0d098082adca73"
+  },
+  {
+    "kind": "word",
+    "key": "about",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/abo/about/about__gb_1.mp3",
+    "local": "audio/words/about.mp3",
+    "bytes": 20898,
+    "sha256": "35eee11c0ca236e38b3fb69025d2dc8150627054028352e5ed383524f00cd395"
+  },
+  {
+    "kind": "word",
+    "key": "age",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/age/age__/age__gb_1.mp3",
+    "local": "audio/words/age.mp3",
+    "bytes": 19330,
+    "sha256": "d4ce9f92d1f32aea079e6a0ad4c6d9b91b9974dd4f739aafafe3a28facd09d92"
+  },
+  {
+    "kind": "word",
+    "key": "baby",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bab/baby_/baby__gb_1.mp3",
+    "local": "audio/words/baby.mp3",
+    "bytes": 13373,
+    "sha256": "8a10a443d9fcbeb0af67badd7849583d75ab8fd08a768f3b8267f43091226bdf"
+  },
+  {
+    "kind": "word",
+    "key": "bad",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bad/bad__/bad__gb_1.mp3",
+    "local": "audio/words/bad.mp3",
+    "bytes": 12119,
+    "sha256": "79f97f39dd13b7033a9d521c2969bf77a2c76f45a409ff64bb012e1d7eaa66c6"
+  },
+  {
+    "kind": "word",
+    "key": "bag",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bag/bag__/bag__gb_1.mp3",
+    "local": "audio/words/bag.mp3",
+    "bytes": 14628,
+    "sha256": "3f2cea113efbbc250987889d75f1f595fb1de6aa34e59353557e13c01981b0e9"
+  },
+  {
+    "kind": "word",
+    "key": "ball",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bal/ball_/ball__gb_1.mp3",
+    "local": "audio/words/ball.mp3",
+    "bytes": 12119,
+    "sha256": "08bf7f0ea0fc8ffae19bc614968142ecbdd6a8919b0b78474e02399dcf34677b"
+  },
+  {
+    "kind": "word",
+    "key": "banana",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/ban/banan/banana__gb_1.mp3",
+    "local": "audio/words/banana.mp3",
+    "bytes": 14627,
+    "sha256": "0e79122339278e5aa30a5b75ad34197c851b4011575fe6d49e40f134535b1ce1"
+  },
+  {
+    "kind": "word",
+    "key": "bear",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bea/bear_/bear__gb_1.mp3",
+    "local": "audio/words/bear.mp3",
+    "bytes": 15045,
+    "sha256": "c68a6c4720ee079591fbacfd128679e5066cf62387b3c000f7e64afe1f104c2c"
+  },
+  {
+    "kind": "word",
+    "key": "bed",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bed/bed__/bed__gb_1.mp3",
+    "local": "audio/words/bed.mp3",
+    "bytes": 15673,
+    "sha256": "00dbf8804d26f666151a3103c87914512a4e350413b9ade4c1d488b746667110"
+  },
+  {
+    "kind": "word",
+    "key": "big",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/big/big__/big__gb_1.mp3",
+    "local": "audio/words/big.mp3",
+    "bytes": 11283,
+    "sha256": "2d2db7c5fbd2716774677fe43f9d2ca80631ab096dcea82b97c3912d00bda6a3"
+  },
+  {
+    "kind": "word",
+    "key": "bird",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bir/bird_/bird__gb_1.mp3",
+    "local": "audio/words/bird.mp3",
+    "bytes": 13791,
+    "sha256": "41497e2cc400f8cb37f7866970a8551adda2bc412d21099f975f12f6ec29bd43"
+  },
+  {
+    "kind": "word",
+    "key": "blue",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/blu/blue_/blue__gb_1.mp3",
+    "local": "audio/words/blue.mp3",
+    "bytes": 12537,
+    "sha256": "6c2a98f318ee5922f435008fc6e756477dc428d2242cb5f8ed0d69f7417adea2"
+  },
+  {
+    "kind": "word",
+    "key": "book",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/boo/book_/book__gb_1.mp3",
+    "local": "audio/words/book.mp3",
+    "bytes": 12119,
+    "sha256": "b843b45dd8036a73908f7bb033a86445a72c555ebcbc1e1af2ee50dffe000e78"
+  },
+  {
+    "kind": "word",
+    "key": "box",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/box/box__/box__gb_1.mp3",
+    "local": "audio/words/box.mp3",
+    "bytes": 18808,
+    "sha256": "0f63c97a07cd72c3ab5bc3fbba0fad608aabdeaaa66898622f40eafb0ea79ef4"
+  },
+  {
+    "kind": "word",
+    "key": "boy",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/boy/boy__/boy__gb_1.mp3",
+    "local": "audio/words/boy.mp3",
+    "bytes": 12119,
+    "sha256": "89069a7dad90f12ef2e60c006e80bb9c61a6cef2697ea5ec2e9ea7897542d334"
+  },
+  {
+    "kind": "word",
+    "key": "bus",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bus/bus__/bus__gb_1.mp3",
+    "local": "audio/words/bus.mp3",
+    "bytes": 13791,
+    "sha256": "4b4289c626b971042c68d80075a74911e6e94c70d399b448205a0f8b1bffb942"
+  },
+  {
+    "kind": "word",
+    "key": "car",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/car/car__/car__gb_1.mp3",
+    "local": "audio/words/car.mp3",
+    "bytes": 17240,
+    "sha256": "ce729927ad0dbd87c2b11985df8960967fb9bf5b5ef63ca97936e46338d26567"
+  },
+  {
+    "kind": "word",
+    "key": "care",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/car/care_/care__gb_1.mp3",
+    "local": "audio/words/care.mp3",
+    "bytes": 17763,
+    "sha256": "40b16d178e02281dbc94f6bd32823e02b0a4ff08b9b5ad2f4e5958febf582fbf"
+  },
+  {
+    "kind": "word",
+    "key": "cat",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/cat/cat__/cat__gb_1.mp3",
+    "local": "audio/words/cat.mp3",
+    "bytes": 13791,
+    "sha256": "c7274476174a17108c1c18fc2817c79b8b9b6e6a86ea5fcb9954c6cb9e88c9c1"
+  },
+  {
+    "kind": "word",
+    "key": "chair",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/cha/chair/chair__gb_1.mp3",
+    "local": "audio/words/chair.mp3",
+    "bytes": 14209,
+    "sha256": "7780b1b5c0a333fd852993385a1bad53b424d05434502eabf12fd6b4dcd4b7e4"
+  },
+  {
+    "kind": "word",
+    "key": "cheese",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/che/chees/cheese__gb_1.mp3",
+    "local": "audio/words/cheese.mp3",
+    "bytes": 15045,
+    "sha256": "8a84a98b6e11393c5f51e548f307dd0af5a4098d24faa70036c6aeb3fc84b5e4"
+  },
+  {
+    "kind": "word",
+    "key": "coffee",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/cof/coffe/coffee__gb_1.mp3",
+    "local": "audio/words/coffee.mp3",
+    "bytes": 13791,
+    "sha256": "113d91d67b58f391e1d581d60db2fc0a74daa5bcc4d2480677b9e3ee5d61419f"
+  },
+  {
+    "kind": "word",
+    "key": "cup",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/cup/cup__/cup__gb_1.mp3",
+    "local": "audio/words/cup.mp3",
+    "bytes": 12955,
+    "sha256": "bbf2f98c382a852eef40c67580fc41f4c078354fe237a487c699904a56e8c7c5"
+  },
+  {
+    "kind": "word",
+    "key": "cure",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/cur/cure_/cure__gb_1.mp3",
+    "local": "audio/words/cure.mp3",
+    "bytes": 15673,
+    "sha256": "6dfcacbee7d05fcaaefba69a08024c7430b797d92ecfa9c4e9477768798ed84a"
+  },
+  {
+    "kind": "word",
+    "key": "day",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/day/day__/day__gb_1.mp3",
+    "local": "audio/words/day.mp3",
+    "bytes": 13791,
+    "sha256": "21746731bed174c524f34b8428c35c8fab14b8360d99baacdfb6fb9ed7124237"
+  },
+  {
+    "kind": "word",
+    "key": "dinner",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/din/dinne/dinner__gb_1.mp3",
+    "local": "audio/words/dinner.mp3",
+    "bytes": 15673,
+    "sha256": "a620145ffa7f0fa55f6e8141d06b66b669505081f79f07b1ea9361dd922bb10c"
+  },
+  {
+    "kind": "word",
+    "key": "dog",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/d/dog/dog__/dog__gb_1.mp3",
+    "local": "audio/words/dog.mp3",
+    "bytes": 12119,
+    "sha256": "4d45190461954c851e73af7f5f348717e102500900d9c3152d7c2f2bbf49e94b"
+  },
+  {
+    "kind": "word",
+    "key": "face",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fac/face_/face__gb_1.mp3",
+    "local": "audio/words/face.mp3",
+    "bytes": 14209,
+    "sha256": "987adedc62bf3ec4c641950f35b27282bc467b671092aa528595b55814684618"
+  },
+  {
+    "kind": "word",
+    "key": "far",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/far/far__/far__gb_1.mp3",
+    "local": "audio/words/far.mp3",
+    "bytes": 19330,
+    "sha256": "f33f7ca0d2b0af5b6d0726d96a0418babd6b11cc598e95755fed8f2b92354086"
+  },
+  {
+    "kind": "word",
+    "key": "fine",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fin/fine_/fine__gb_1.mp3",
+    "local": "audio/words/fine.mp3",
+    "bytes": 15673,
+    "sha256": "e5c0c4b27bc275bbb48d85f8b504447fd50a2f63d106fb4651916a8acd607a92"
+  },
+  {
+    "kind": "word",
+    "key": "fish",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fis/fish_/fish__gb_1.mp3",
+    "local": "audio/words/fish.mp3",
+    "bytes": 11701,
+    "sha256": "5dd28f6e1ba2c1b60066e96537b9d42310b8c305e76eceeaa5beb7df2ee7cf2d"
+  },
+  {
+    "kind": "word",
+    "key": "five",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fiv/five_/five__gb_1.mp3",
+    "local": "audio/words/five.mp3",
+    "bytes": 14627,
+    "sha256": "68d5f2f59c8a453e08d4556012ede8d909cf7b5803b64bdfc2782e0acabe6ee4"
+  },
+  {
+    "kind": "word",
+    "key": "food",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/foo/food_/food__gb_1.mp3",
+    "local": "audio/words/food.mp3",
+    "bytes": 14106,
+    "sha256": "f9ef9965ded9ff7352530ef361fb6e5d8d18af07e202010e144196db7a7d06e4"
+  },
+  {
+    "kind": "word",
+    "key": "goat",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/g/goa/goat_/goat__gb_1.mp3",
+    "local": "audio/words/goat.mp3",
+    "bytes": 13373,
+    "sha256": "69e1cfd9614099b4ff2f46bc6ed20395cfc54fdf11ce7fb6b48acc5e84406e33"
+  },
+  {
+    "kind": "word",
+    "key": "good",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/g/goo/good_/good__gb_1.mp3",
+    "local": "audio/words/good.mp3",
+    "bytes": 10866,
+    "sha256": "3df6e9b0eb01c7f1982b79ea5c39c473718698b6b88f7a91a30910ca70c32033"
+  },
+  {
+    "kind": "word",
+    "key": "green",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/g/gre/green/green__gb_1.mp3",
+    "local": "audio/words/green.mp3",
+    "bytes": 17763,
+    "sha256": "57c91823973d29d8a84d02d7695d58fdc76444b731f2576f8a3d0201f3462c5d"
+  },
+  {
+    "kind": "word",
+    "key": "hair",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hai/hair_/hair__gb_1.mp3",
+    "local": "audio/words/hair.mp3",
+    "bytes": 16718,
+    "sha256": "a1d50ad2f0c22dd5b3998ab6fcf28f957031fe24310bb19daa258fe4b2e22bef"
+  },
+  {
+    "kind": "word",
+    "key": "hand",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/han/hand_/hand__gb_1.mp3",
+    "local": "audio/words/hand.mp3",
+    "bytes": 15045,
+    "sha256": "cc1cf63d476b99bf879edf007d0291d6896a16b3374d25a928a137a68ab581dd"
+  },
+  {
+    "kind": "word",
+    "key": "hat",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hat/hat__/hat__gb_1.mp3",
+    "local": "audio/words/hat.mp3",
+    "bytes": 14209,
+    "sha256": "fc7a6496ab66c1d4684d1e90d86b816f96ffa784ff962d469133e21f5b324aa8"
+  },
+  {
+    "kind": "word",
+    "key": "hello",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hel/hello/hello__gb_1.mp3",
+    "local": "audio/words/hello.mp3",
+    "bytes": 18808,
+    "sha256": "706cc5b2ba381ce47a527459283c5142fe770a3fcabd52674afeb2dc5d0263d1"
+  },
+  {
+    "kind": "word",
+    "key": "here",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/her/here_/here__gb_1.mp3",
+    "local": "audio/words/here.mp3",
+    "bytes": 16196,
+    "sha256": "f19db88f659634ab039d7c595928f38d5112be9b50e8ea5eafe26a5b2c12636b"
+  },
+  {
+    "kind": "word",
+    "key": "home",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hom/home_/home__gb_1.mp3",
+    "local": "audio/words/home.mp3",
+    "bytes": 18808,
+    "sha256": "954554bb30b70492e51a8f64ca87834c9db467f1825e7b60dd365f9052c3d8b7"
+  },
+  {
+    "kind": "word",
+    "key": "hot",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hot/hot__/hot__gb_1.mp3",
+    "local": "audio/words/hot.mp3",
+    "bytes": 13373,
+    "sha256": "8508197e542b26d164a212d3afc93c75936d5749ded3577b99948bc29f6c79fa"
+  },
+  {
+    "kind": "word",
+    "key": "house",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hou/house/house__gb_1.mp3",
+    "local": "audio/words/house.mp3",
+    "bytes": 15881,
+    "sha256": "54da6aeb526d4981a2caa2da1e364ea57ae8ecb23b19f7fa2357a72d3f54c237"
+  },
+  {
+    "kind": "word",
+    "key": "idea",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/ide/idea_/idea__gb_1.mp3",
+    "local": "audio/words/idea.mp3",
+    "bytes": 20375,
+    "sha256": "2f625a728f0a7b6e8d206f36bab1d14f43bda401cfcba55b2d9a4fb8352c7125"
+  },
+  {
+    "kind": "word",
+    "key": "job",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/j/job/job__/job__gb_1.mp3",
+    "local": "audio/words/job.mp3",
+    "bytes": 18285,
+    "sha256": "ad17a093e6c98d6cfbdb8d27596e7d29b2ba469ae529580bd91bbf808c40069d"
+  },
+  {
+    "kind": "word",
+    "key": "jump",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/j/jum/jump_/jump__gb_1.mp3",
+    "local": "audio/words/jump.mp3",
+    "bytes": 16196,
+    "sha256": "b70eeeed7f61409c565251f11cd81fcf775644de2a2986de324d284a60b7777f"
+  },
+  {
+    "kind": "word",
+    "key": "key",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/k/key/key__/key__gb_1.mp3",
+    "local": "audio/words/key.mp3",
+    "bytes": 11701,
+    "sha256": "08c2aa0037b1631b3fc81ceea02282157959039eb6d9a3b177b4e6e22a62ef4f"
+  },
+  {
+    "kind": "word",
+    "key": "king",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/k/kin/king_/king__gb_1.mp3",
+    "local": "audio/words/king.mp3",
+    "bytes": 12537,
+    "sha256": "397da61aa5c2e432bf1c8709af3b49834cde613f521961eced815e31059d1388"
+  },
+  {
+    "kind": "word",
+    "key": "law",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/law/law__/law__gb_1.mp3",
+    "local": "audio/words/law.mp3",
+    "bytes": 11701,
+    "sha256": "ebfb04dba44137157508a83b5b836fe6d6925eec3ed847f00f9396ec50dc7d08"
+  },
+  {
+    "kind": "word",
+    "key": "learn",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/lea/learn/learn__gb_1.mp3",
+    "local": "audio/words/learn.mp3",
+    "bytes": 16718,
+    "sha256": "6bf395246b3efa2712a9ae594b6491ac0321fb3fb6f97c93f77a89e9ca4ef910"
+  },
+  {
+    "kind": "word",
+    "key": "light",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/lig/light/light__gb_1.mp3",
+    "local": "audio/words/light.mp3",
+    "bytes": 13373,
+    "sha256": "27816d4608a5029dccafdeca97016abcad1f75291bed8895a0d768bd5430c62c"
+  },
+  {
+    "kind": "word",
+    "key": "like",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/lik/like_/like__gb_1.mp3",
+    "local": "audio/words/like.mp3",
+    "bytes": 16196,
+    "sha256": "dacde280f0f78a23a9f6b85e0e27fb40d0ae8685b1d9022763fb898a65399a09"
+  },
+  {
+    "kind": "word",
+    "key": "live",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/liv/live_/live__gb_1.mp3",
+    "local": "audio/words/live.mp3",
+    "bytes": 16718,
+    "sha256": "8176694afb5ad1c2360e88ce97deecc58ad61deb881e6ed6efc54d075a34b986"
+  },
+  {
+    "kind": "word",
+    "key": "long",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/lon/long_/long__gb_1.mp3",
+    "local": "audio/words/long.mp3",
+    "bytes": 12119,
+    "sha256": "2da1c10834d9e69b63b29272d2a8880f1a81cd699f4667840ae180d749bc146a"
+  },
+  {
+    "kind": "word",
+    "key": "love",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/lov/love_/love__gb_1.mp3",
+    "local": "audio/words/love.mp3",
+    "bytes": 17240,
+    "sha256": "0af38540355fedf8e6076ffd1121fc76df6095b3b9fc6a1ce4971c53a398297e"
+  },
+  {
+    "kind": "word",
+    "key": "man",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/man/man__/man__gb_1.mp3",
+    "local": "audio/words/man.mp3",
+    "bytes": 13373,
+    "sha256": "be28faf5d8bcb7a94b07a7fcebad62ec714101293a8eee7d77cb1b75e40ad671"
+  },
+  {
+    "kind": "word",
+    "key": "map",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/map/map__/map__gb_1.mp3",
+    "local": "audio/words/map.mp3",
+    "bytes": 15151,
+    "sha256": "940e52a1561c69bf9efe248a75d99526ee84402baa0c3291fa9da0c074f8b58e"
+  },
+  {
+    "kind": "word",
+    "key": "measure",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mea/measu/measure__gb_1.mp3",
+    "local": "audio/words/measure.mp3",
+    "bytes": 13791,
+    "sha256": "798f4d22257a2f3487b4484be2ccc7fd9140fc0277ed26bf88bf958e5e56ee5a"
+  },
+  {
+    "kind": "word",
+    "key": "moon",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/moo/moon_/moon__gb_1.mp3",
+    "local": "audio/words/moon.mp3",
+    "bytes": 12955,
+    "sha256": "50b5de45d9eaae27d2acb77a89e4c7de56f19eeb8a4e3c41ad0fadee919410c7"
+  },
+  {
+    "kind": "word",
+    "key": "mother",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mot/mothe/mother__gb_1.mp3",
+    "local": "audio/words/mother.mp3",
+    "bytes": 14209,
+    "sha256": "6603e811e001dac9404c3b9d7969a7bb43af18fe974f2e5d8c671bc28a641401"
+  },
+  {
+    "kind": "word",
+    "key": "mum",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mum/mum__/mum__gb_1.mp3",
+    "local": "audio/words/mum.mp3",
+    "bytes": 11701,
+    "sha256": "cdea12ac1095d0ebe1b1081a8b1f53acdb4b00b629673fa8c9eb97cf29e35eb3"
+  },
+  {
+    "kind": "word",
+    "key": "music",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mus/music/music__gb_1.mp3",
+    "local": "audio/words/music.mp3",
+    "bytes": 18808,
+    "sha256": "26b82054596266a5dbe4702ba8a49ba3413687f59c03c31381a29e1b4f274327"
+  },
+  {
+    "kind": "word",
+    "key": "name",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/n/nam/name_/name__gb_1.mp3",
+    "local": "audio/words/name.mp3",
+    "bytes": 16196,
+    "sha256": "debf775c8aa04c29e95eeca7cfec040fd9891fee35bdeb2607c0cff6eb6b4f8b"
+  },
+  {
+    "kind": "word",
+    "key": "near",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/n/nea/near_/near__gb_1.mp3",
+    "local": "audio/words/near.mp3",
+    "bytes": 17240,
+    "sha256": "85eb834ea87d0ecd4fe05acbab6e902ce73112c12212aead33d91bf7595b76f4"
+  },
+  {
+    "kind": "word",
+    "key": "now",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/n/now/now__/now__gb_1.mp3",
+    "local": "audio/words/now.mp3",
+    "bytes": 15673,
+    "sha256": "592f61e4ecff5883cccf9e5aac13d44b3713ca253adf8ecb93fd769be9b4da56"
+  },
+  {
+    "kind": "word",
+    "key": "one",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/o/one/one__/one__gb_1.mp3",
+    "local": "audio/words/one.mp3",
+    "bytes": 11701,
+    "sha256": "984584fc7d2b0f2ba259305b86147d497c32c706bfde704f852c8780575acc2b"
+  },
+  {
+    "kind": "word",
+    "key": "open",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/o/ope/open_/open__gb_1.mp3",
+    "local": "audio/words/open.mp3",
+    "bytes": 18285,
+    "sha256": "37b4813d996adde178f44fc7b4543476728fd76051097981e9526d291e8fc42e"
+  },
+  {
+    "kind": "word",
+    "key": "out",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/o/out/out__/out__gb_1.mp3",
+    "local": "audio/words/out.mp3",
+    "bytes": 17240,
+    "sha256": "06f70a1485ff381519f999844f9f92503d10fee304da6ad46ec899636fffddfe"
+  },
+  {
+    "kind": "word",
+    "key": "pen",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pen/pen__/pen__gb_1.mp3",
+    "local": "audio/words/pen.mp3",
+    "bytes": 12119,
+    "sha256": "ee4f64ea6d9bd76ee57d6cd3f3d5f33ccee5541f094928a0ee90f1a76ebd739a"
+  },
+  {
+    "kind": "word",
+    "key": "pin",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/pin/pin__/pin__gb_1.mp3",
+    "local": "audio/words/pin.mp3",
+    "bytes": 14628,
+    "sha256": "7ccf5857e60635b4cec83d090db2424520019cdab0b59b0b0cf6e3b46aa75b4e"
+  },
+  {
+    "kind": "word",
+    "key": "put",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/p/put/put__/put__gb_1.mp3",
+    "local": "audio/words/put.mp3",
+    "bytes": 15151,
+    "sha256": "4e5a16a1a65b2d87ad70be072bad4baacd4d78586b154d8a437bd4edaa63f133"
+  },
+  {
+    "kind": "word",
+    "key": "red",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/red/red__/red__gb_1.mp3",
+    "local": "audio/words/red.mp3",
+    "bytes": 15673,
+    "sha256": "32e941ce9af6aff9e84aff09648d8f7f8988bf6b7602b45a8a90d0fb96ba2caf"
+  },
+  {
+    "kind": "word",
+    "key": "right",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/rig/right/right__gb_1.mp3",
+    "local": "audio/words/right.mp3",
+    "bytes": 15045,
+    "sha256": "a309c86458d5ed097986ca86b66e7b4f4ab494cb72584b790f60808b9daa4838"
+  },
+  {
+    "kind": "word",
+    "key": "road",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/roa/road_/road__gb_1.mp3",
+    "local": "audio/words/road.mp3",
+    "bytes": 17763,
+    "sha256": "30292b8f8968b1eebb9af9a79477a561d9d1637e458d963a9f0465d9f17b993c"
+  },
+  {
+    "kind": "word",
+    "key": "room",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/r/roo/room_/room__gb_1.mp3",
+    "local": "audio/words/room.mp3",
+    "bytes": 15463,
+    "sha256": "a71fc335d8d3f86b14b44b4747ca9d9043137368a34073476f9f989e59c7ead7"
+  },
+  {
+    "kind": "word",
+    "key": "school",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sch/schoo/school__gb_1.mp3",
+    "local": "audio/words/school.mp3",
+    "bytes": 18808,
+    "sha256": "a5d4608aa5dcee8a4ff10f2d415d57c542bea057b35bd127b315786125ddcb4d"
+  },
+  {
+    "kind": "word",
+    "key": "see",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/see/see__/see__gb_1.mp3",
+    "local": "audio/words/see.mp3",
+    "bytes": 17240,
+    "sha256": "61071e4b7598a84a7d64de186c77c9144be7d46385285b033041e46112b9f34a"
+  },
+  {
+    "kind": "word",
+    "key": "seven",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sev/seven/seven__gb_1.mp3",
+    "local": "audio/words/seven.mp3",
+    "bytes": 14627,
+    "sha256": "2ca6299c2909a8532cac23c3d3da198c13f2d9ffc590f6a6fd6b04ca22d11953"
+  },
+  {
+    "kind": "word",
+    "key": "she",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/she/she__/she__gb_1.mp3",
+    "local": "audio/words/she.mp3",
+    "bytes": 14628,
+    "sha256": "fab8a1c805bb992a8fd80374115e32b081563aa699bd48b88b996a03629afc90"
+  },
+  {
+    "kind": "word",
+    "key": "ship",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/shi/ship_/ship__gb_1.mp3",
+    "local": "audio/words/ship.mp3",
+    "bytes": 17763,
+    "sha256": "e68692e7efe0a4e84764b2f1139dd9043d52f5a32a0ea1563f2fe5dc86ad2d9e"
+  },
+  {
+    "kind": "word",
+    "key": "sing",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sin/sing_/sing__gb_1.mp3",
+    "local": "audio/words/sing.mp3",
+    "bytes": 16718,
+    "sha256": "602d51c6042569d13ab2c9d74356a3b226b2c5057652072dc3f23c7442b9a7f7"
+  },
+  {
+    "kind": "word",
+    "key": "sit",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sit/sit__/sit__gb_1.mp3",
+    "local": "audio/words/sit.mp3",
+    "bytes": 17240,
+    "sha256": "9120110d177b59360903d87bbbb91b6c67a3c0def203f965a36feb4a1133a590"
+  },
+  {
+    "kind": "word",
+    "key": "start",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sta/start/start__gb_1.mp3",
+    "local": "audio/words/start.mp3",
+    "bytes": 21420,
+    "sha256": "8f2903b5b148bdebe31c9b38910b1cdcbe1cbbdc48649aaed0d6580306428b00"
+  },
+  {
+    "kind": "word",
+    "key": "stop",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sto/stop_/stop__gb_1.mp3",
+    "local": "audio/words/stop.mp3",
+    "bytes": 14628,
+    "sha256": "a881fa9ff9fcea435910af6b6010461767c72cf64cf1975fbfcede6fcf7e4b3c"
+  },
+  {
+    "kind": "word",
+    "key": "sun",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sun/sun__/sun__gb_1.mp3",
+    "local": "audio/words/sun.mp3",
+    "bytes": 13791,
+    "sha256": "7cbd17cdd03b77fdbee662f0bb42f2a36c8efb936712abe01974120d66c41bd4"
+  },
+  {
+    "kind": "word",
+    "key": "talk",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/tal/talk_/talk__gb_1.mp3",
+    "local": "audio/words/talk.mp3",
+    "bytes": 17240,
+    "sha256": "917ce469023a06cf4dddfafbc2e25155b5f099b3b35fdab1838f7dbde65baec2"
+  },
+  {
+    "kind": "word",
+    "key": "tea",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/tea/tea__/tea__gb_1.mp3",
+    "local": "audio/words/tea.mp3",
+    "bytes": 11283,
+    "sha256": "78b06d3cbcdc5364204767d8c63543f8a76a883d2221e40fd2a50cec8d3c39ba"
+  },
+  {
+    "kind": "word",
+    "key": "teacher",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/tea/teach/teacher__gb_1.mp3",
+    "local": "audio/words/teacher.mp3",
+    "bytes": 19330,
+    "sha256": "5b8458eb3ff09710a8c829386623de62973afdd347e5b8cf5ce15a79a71dde3d"
+  },
+  {
+    "kind": "word",
+    "key": "ten",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/ten/ten__/ten__gb_1.mp3",
+    "local": "audio/words/ten.mp3",
+    "bytes": 12119,
+    "sha256": "fb33a79b3c4269898e5ef6ea8780d75fed8e06c219baee943c480ce7dfc7c576"
+  },
+  {
+    "kind": "word",
+    "key": "thank",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/tha/thank/thank__gb_1.mp3",
+    "local": "audio/words/thank.mp3",
+    "bytes": 18285,
+    "sha256": "e29a37b38456c548cf1cbef789a2aeeffdac737e33fa81bb34b203486d6a1df8"
+  },
+  {
+    "kind": "word",
+    "key": "that",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/tha/that_/that__gb_1.mp3",
+    "local": "audio/words/that.mp3",
+    "bytes": 15673,
+    "sha256": "9e151ec83e2dd5d8d1f96ba95b3d512bb3e14de589e499b83d52b8d9137ecc0b"
+  },
+  {
+    "kind": "word",
+    "key": "think",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/thi/think/think__gb_1.mp3",
+    "local": "audio/words/think.mp3",
+    "bytes": 17240,
+    "sha256": "4d9727026d7192aa604a1126fb3fab81ca587952d0efd7fa5ac28dda0685d7a3"
+  },
+  {
+    "kind": "word",
+    "key": "this",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/thi/this_/this__gb_1.mp3",
+    "local": "audio/words/this.mp3",
+    "bytes": 16196,
+    "sha256": "9f6e79477d2cf3bb621689eb92e6e6e5eadb42e544d43617864481bd74d9b1c1"
+  },
+  {
+    "kind": "word",
+    "key": "three",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/thr/three/three__gb_1.mp3",
+    "local": "audio/words/three.mp3",
+    "bytes": 14627,
+    "sha256": "b6fd10571bf6c4dffdc998a0028a98e77d9d5b9f5700a81e9b9a67ba0c746433"
+  },
+  {
+    "kind": "word",
+    "key": "time",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/tim/time_/time__gb_1.mp3",
+    "local": "audio/words/time.mp3",
+    "bytes": 17240,
+    "sha256": "2d1b7f1dfff82f36268c099f8c217f09fe9851094b7466798ddd95fa298709c0"
+  },
+  {
+    "kind": "word",
+    "key": "top",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/top/top__/top__gb_1.mp3",
+    "local": "audio/words/top.mp3",
+    "bytes": 16196,
+    "sha256": "bec118e1634d6606ff285a75a37fcaf2082c015a369c11f8b198ce312b28d799"
+  },
+  {
+    "kind": "word",
+    "key": "tour",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/tou/tour_/tour__gb_1.mp3",
+    "local": "audio/words/tour.mp3",
+    "bytes": 16718,
+    "sha256": "d510159ee43ce07aeb01fff3b9187e626b5a3964386a209c50ed77b2fa7c8e5e"
+  },
+  {
+    "kind": "word",
+    "key": "tourist",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/tou/touri/tourist__gb_1.mp3",
+    "local": "audio/words/tourist.mp3",
+    "bytes": 24555,
+    "sha256": "281d44c2e20a2aa024f3e81106877291f505a2bcb8713981c4c0798834ceb37e"
+  },
+  {
+    "kind": "word",
+    "key": "toy",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/toy/toy__/toy__gb_1.mp3",
+    "local": "audio/words/toy.mp3",
+    "bytes": 15151,
+    "sha256": "ac90f4b7541ed6ea70c26a009c21f21aac1dd47e81f5b768f60b7a8d48244bf7"
+  },
+  {
+    "kind": "word",
+    "key": "usually",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/u/usu/usual/usually__gb_1.mp3",
+    "local": "audio/words/usually.mp3",
+    "bytes": 21420,
+    "sha256": "ddfb723d5c855634078ea94385b9b1c8852823a4583579a4aed9eab98e04c100"
+  },
+  {
+    "kind": "word",
+    "key": "very",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/v/ver/very_/very__gb_1.mp3",
+    "local": "audio/words/very.mp3",
+    "bytes": 17763,
+    "sha256": "85c4c8ef14183a232836f15188a7fc2aa86b4c5599bf60d0e7aab50fbee47607"
+  },
+  {
+    "kind": "word",
+    "key": "vision",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/v/vis/visio/vision__gb_1.mp3",
+    "local": "audio/words/vision.mp3",
+    "bytes": 16718,
+    "sha256": "96a605c9f4d964b40ab9961ce86d43a5673aa6653c4c50fe805cee4adee87f7d"
+  },
+  {
+    "kind": "word",
+    "key": "voice",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/v/voi/voice/voice__gb_1.mp3",
+    "local": "audio/words/voice.mp3",
+    "bytes": 18808,
+    "sha256": "efa0e0a83ddfea31c65358b29d363d5d3af955e763a32e68fc48c080f2543cf2"
+  },
+  {
+    "kind": "word",
+    "key": "water",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wat/water/water__gb_1.mp3",
+    "local": "audio/words/water.mp3",
+    "bytes": 19330,
+    "sha256": "128b03f2f903739b9572e942b4d83bf215e20cda21e0f9a15705191063c9d731"
+  },
+  {
+    "kind": "word",
+    "key": "window",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/win/windo/window__gb_1.mp3",
+    "local": "audio/words/window.mp3",
+    "bytes": 16299,
+    "sha256": "4940db720522b93b19069559ff9c16287ad789333dc9e21706fc89fd804700f3"
+  },
+  {
+    "kind": "word",
+    "key": "work",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/w/wor/work_/work__gb_1.mp3",
+    "local": "audio/words/work.mp3",
+    "bytes": 14209,
+    "sha256": "b6d7f54e85261a74c35e2ec908a891cd9e0a7733e58dc4491bacb9f6a3fc0674"
+  },
+  {
+    "kind": "word",
+    "key": "year",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/y/yea/year_/year__gb_1.mp3",
+    "local": "audio/words/year.mp3",
+    "bytes": 16718,
+    "sha256": "bda80989e23dfac183511bdef2e0e84616734f1d6a0f7f491ddf7b222593dc4f"
+  },
+  {
+    "kind": "word",
+    "key": "yes",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/y/yes/yes__/yes__gb_1.mp3",
+    "local": "audio/words/yes.mp3",
+    "bytes": 15881,
+    "sha256": "b5d701bb5529490061ab9f75a165907836de26701c11f98eca125389747242bd"
+  },
+  {
+    "kind": "word",
+    "key": "you",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/y/you/you__/you__gb_1.mp3",
+    "local": "audio/words/you.mp3",
+    "bytes": 13061,
+    "sha256": "617531e1d87fbaae487c99272f7b877ba28488dfdceee7fb8546bca7c76b7f21"
+  },
+  {
+    "kind": "word",
+    "key": "zero",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/z/zer/zero_/zero__gb_1.mp3",
+    "local": "audio/words/zero.mp3",
+    "bytes": 21942,
+    "sha256": "4e6b39a1d90b64b7fd5973f82a62978375bf2472cae7e5eae1ce0b3624302e14"
+  },
+  {
+    "kind": "word",
+    "key": "zoo",
+    "source": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/z/zoo/zoo__/zoo__gb_1.mp3",
+    "local": "audio/words/zoo.mp3",
+    "bytes": 16196,
+    "sha256": "35a4247b598921fa2b4c08d2a66343475c7cf4deba9df74f2a76b6a18438e2e2"
+  }
+]

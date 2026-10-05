@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f9f8">
+  <title>音标练习室 · 英语音标学习</title>
+  <style>
+    :root{font-family:Inter,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:#20343b;background:#f7f9f8;font-synthesis:none}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-width:320px}button,input{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed}button:focus-visible,input:focus-visible{outline:3px solid #efab57;outline-offset:3px}
+    .app{max-width:1520px;margin:auto;padding:0 28px 48px}.topbar{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e4ebe8}.brand{display:flex;align-items:center;gap:13px;font-size:20px;font-weight:800;color:#193840;white-space:nowrap}.brand-mark{display:grid;place-items:center;width:34px;height:34px;border-radius:7px;background:#146e73;color:#fff;font:700 20px Georgia,serif}.top-right{display:flex;align-items:center;gap:17px;color:#698087;font-size:13px}.top-right strong{color:#1a4247;font-size:14px}.top-dot{width:6px;height:6px;border-radius:50%;background:#ef9c6c}
+    .shell{display:grid;grid-template-columns:242px minmax(0,1fr);gap:36px;padding-top:34px}.sidebar{border-right:1px solid #e4ebe8;padding-right:22px}.side-label,.eyebrow{font-size:11px;font-weight:800;letter-spacing:1.4px;color:#7b959a}.side-label{margin:11px 0 14px 14px}.nav{display:flex;flex-direction:column;gap:4px}.nav button{border:0;background:transparent;color:#52696e;width:100%;padding:12px 14px;display:flex;align-items:center;justify-content:space-between;text-align:left;border-radius:6px;font-size:14px;font-weight:650}.nav button:hover{background:#edf3f1}.nav button.active{background:#dcecea;color:#0f6268}.nav button .count{font-size:12px;font-weight:700;color:#8ba0a4}.nav button.active .count{color:#27818a}.nav .nav-sub{padding-left:27px;font-weight:500}.nav-divider{height:1px;background:#e4ebe8;margin:13px 0}.side-progress{margin:32px 6px 0;padding:17px 13px;background:#eaf2ef;border-radius:7px}.side-progress-head{display:flex;justify-content:space-between;align-items:baseline;font-size:12px;color:#607b7c}.side-progress-head strong{font-size:20px;color:#174d50}.progress-track{height:6px;border-radius:6px;background:#d3e2dd;overflow:hidden;margin-top:12px}.progress-fill{height:100%;width:0;background:#d68b67;transition:width .3s}.side-progress p{margin:11px 0 0;color:#7d9391;font-size:11px;line-height:1.5}
+    .content{min-width:0}.heading-row{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:24px}.heading-row h1{font-size:31px;line-height:1.2;margin:7px 0 6px;color:#1d373c;letter-spacing:0}.heading-row p{margin:0;color:#789095;font-size:14px}.heading-counter{color:#8aa0a3;font-size:13px;white-space:nowrap;padding-bottom:3px}.heading-counter strong{color:#20575b}
+    .feature{display:grid;grid-template-columns:minmax(0,1fr) 305px;min-height:211px;border-radius:7px;overflow:hidden;background:#17494f;color:#fff;margin-bottom:28px}.feature-main{padding:25px 30px;position:relative;overflow:hidden}.feature-main:after{content:"";position:absolute;right:-12px;bottom:-62px;width:205px;height:205px;border:1px solid #47787a;border-radius:50%;box-shadow:0 0 0 31px #17494f,0 0 0 32px #47787a,0 0 0 65px #17494f,0 0 0 66px #47787a;opacity:.47;pointer-events:none}.feature-main>*{position:relative;z-index:1}.feature .eyebrow{color:#84b4b2}.feature-sound{display:flex;align-items:center;gap:17px;margin-top:12px}.feature-symbol{font:500 58px Georgia,"Times New Roman",serif;line-height:1.1;min-width:100px}.round-play{width:47px;height:47px;flex:none;display:grid;place-items:center;border:0;border-radius:50%;color:#18565b;background:#d7efea;transition:transform .2s,background .2s}.round-play:hover{transform:scale(1.06);background:#fff}.round-play.playing,.play-icon.playing{background:#edb489}.play-glyph{width:0;height:0;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:11px solid currentColor;margin-left:3px}.feature-name{margin-top:8px;font-size:15px;font-weight:700}.feature-tip{margin:8px 0 0;max-width:440px;color:#b8d1d0;font-size:13px;line-height:1.55}.feature-example{padding:26px 27px;background:#1e565b;border-left:1px solid #4a7476;display:flex;flex-direction:column;justify-content:center}.feature-example .eyebrow{color:#9fc5c2}.feature-example-word{font-size:29px;font-weight:700;margin:11px 0 3px}.feature-example-ipa{font:19px Georgia,serif;color:#b7ded8}.feature-example-cn{font-size:13px;color:#aacac6;margin-top:11px}
+    .toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:17px}.section-title{font-size:20px;font-weight:800;color:#284148;white-space:nowrap}.section-title small{display:block;color:#8ca0a3;font-size:12px;font-weight:500;margin-top:4px}.tools{display:flex;align-items:center;gap:9px}.search{display:flex;align-items:center;gap:9px;width:230px;height:39px;padding:0 12px;border:1px solid #dce6e3;border-radius:6px;background:#fff;color:#93a8a8}.search:focus-within{border-color:#4a9a9a}.search-icon{width:13px;height:13px;border:2px solid currentColor;border-radius:50%;position:relative;flex:none}.search-icon:after{content:"";position:absolute;width:6px;height:2px;background:currentColor;right:-5px;bottom:-3px;transform:rotate(45deg)}.search input{border:0;outline:0;min-width:0;width:100%;color:#2b464a;background:transparent;font-size:13px}.search input::placeholder{color:#9caeaf}.tool-btn{height:39px;border:1px solid #dce6e3;background:#fff;border-radius:6px;padding:0 13px;color:#536d70;font-size:13px;font-weight:650;white-space:nowrap}.tool-btn:hover{border-color:#8bb8b5;color:#1a6d6e}.tool-btn.active{background:#dcecea;color:#0e666a;border-color:#a4ceca}
+    .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}.sound-card{min-height:173px;border:1px solid #e2eae7;background:#fff;border-radius:7px;padding:15px 16px;display:flex;flex-direction:column;transition:border-color .2s,box-shadow .2s,transform .2s}.sound-card:hover{border-color:#a4ccca;box-shadow:0 7px 22px #1c57520c;transform:translateY(-2px)}.card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:6px}.card-tag{font-size:10px;font-weight:750;color:#438e89;line-height:1.35}.card-tag.consonant{color:#c18060}.card-tag.diphthong{color:#a07b39}.card-mark{border:0;background:transparent;color:#b1c2c1;font-size:19px;width:27px;height:25px;padding:0;line-height:1}.card-mark:hover,.card-mark.learned{color:#d28565}.card-symbol{display:block;align-self:flex-start;border:0;background:transparent;padding:3px 0 0;color:#253e42;font:500 38px Georgia,"Times New Roman",serif;line-height:1.1}.card-symbol:hover{color:#14737a}.card-bottom{display:flex;justify-content:space-between;align-items:flex-end;gap:5px;margin-top:auto}.card-word{font-size:13px;color:#536e70;font-weight:700}.card-word small{display:block;font-size:11px;color:#9aabad;font-weight:400;margin-top:2px}.play-icon{display:grid;place-items:center;flex:none;width:33px;height:33px;border:0;border-radius:50%;background:#e8f3ef;color:#337c7d}.play-icon .play-glyph{border-top-width:5px;border-bottom-width:5px;border-left-width:8px;margin-left:2px}.play-icon:hover{background:#cfe8e1}.empty{grid-column:1/-1;text-align:center;border:1px dashed #d7e4e0;border-radius:7px;color:#779195;padding:55px 20px}.empty strong{display:block;color:#29484d;margin-bottom:5px}.footer-note{font-size:11px;color:#91a5a5;margin-top:19px;line-height:1.6}.mobile-nav{display:none}.toast{position:fixed;left:50%;bottom:25px;transform:translate(-50%,20px);background:#234a4f;color:#fff;padding:11px 16px;border-radius:6px;font-size:13px;box-shadow:0 10px 26px #102e3233;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:10}.toast.show{opacity:1;transform:translate(-50%,0)}
+    @media(max-width:1200px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.shell{gap:25px;grid-template-columns:215px minmax(0,1fr)}.feature{grid-template-columns:minmax(0,1fr) 250px}}
+    @media(max-width:850px){.app{padding:0 20px 34px}.shell{display:block;padding-top:26px}.sidebar{display:none}.mobile-nav{display:flex;overflow-x:auto;gap:7px;margin:0 -20px 24px;padding:0 20px 6px;scrollbar-width:none}.mobile-nav::-webkit-scrollbar{display:none}.mobile-nav button{white-space:nowrap;border:1px solid #dce6e2;color:#567174;background:#fff;border-radius:5px;padding:9px 13px;font-size:13px;font-weight:650}.mobile-nav button.active{background:#dcecea;border-color:#b6d5d1;color:#126a6e}.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+    @media(max-width:650px){.topbar{height:65px}.brand{font-size:18px}.top-right{font-size:11px;gap:8px}.top-right strong{font-size:12px}.heading-row{margin-bottom:19px}.heading-row h1{font-size:26px}.heading-counter{display:none}.feature{grid-template-columns:1fr;min-height:0;margin-bottom:24px}.feature-main{padding:21px 23px 22px}.feature-main:after{width:160px;height:160px}.feature-symbol{font-size:50px;min-width:80px}.feature-example{padding:14px 23px 16px;border-left:0;border-top:1px solid #4a7476;display:grid;grid-template-columns:1fr auto;column-gap:20px}.feature-example .eyebrow{grid-column:1/-1}.feature-example-word{font-size:21px;margin:5px 0 0}.feature-example-ipa{font-size:16px;align-self:end}.feature-example-cn{display:none}.toolbar{align-items:flex-start;flex-direction:column;gap:12px}.tools{width:100%}.search{flex:1;width:auto}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.sound-card{min-height:160px;padding:13px}.card-symbol{font-size:36px}.section-title{font-size:18px}}
+    @media(max-width:390px){.app{padding-left:15px;padding-right:15px}.mobile-nav{margin-left:-15px;margin-right:-15px;padding-left:15px;padding-right:15px}.top-right{font-size:0}.top-dot{display:none}.tool-btn{padding:0 10px;font-size:12px}.search{padding:0 9px}.sound-card{min-height:154px}.card-tag{font-size:9px}}
+    .feature-example{padding:20px 22px}.feature-examples{display:grid;gap:4px;margin-top:10px}.feature-example-row{display:grid;grid-template-columns:minmax(0,1fr) 34px;align-items:center;gap:8px;min-height:42px}.feature-example-word{display:block;font-size:17px;font-weight:700;line-height:1.15;margin:0}.feature-example-ipa{display:block;font:14px Georgia,serif;color:#b7ded8;margin-top:2px}.feature-example-row .play-icon{background:#d7efea;color:#18565b}.feature-example-row .play-icon:hover{background:#fff}
+    .sound-card{min-height:260px}.card-examples{display:grid;gap:3px;margin-top:10px}.card-example{display:grid;grid-template-columns:minmax(0,1fr) 28px;gap:4px;align-items:center;min-height:41px}.card-example-text{min-width:0}.card-word{display:block;font-size:12px;color:#354f53;font-weight:700;overflow-wrap:anywhere}.card-ipa{display:block;font:12px Georgia,serif;color:#82999a;overflow-wrap:anywhere;margin-top:1px}.card-example .play-icon{width:28px;height:28px}
+    @media(max-width:650px){.feature-example{display:block;padding:15px 23px}.feature-examples{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.feature-example-row{grid-template-columns:minmax(0,1fr) 29px;gap:3px}.feature-example-word{font-size:14px;overflow-wrap:anywhere}.feature-example-ipa{font-size:11px;overflow-wrap:anywhere}.feature-example-row .play-icon{width:29px;height:29px}.sound-card{min-height:248px}}
+    @media(max-width:390px){.feature-examples{grid-template-columns:1fr;gap:3px}.feature-example-row{grid-template-columns:minmax(0,1fr) 29px}.feature-example-word,.feature-example-ipa{display:inline;font-size:13px}.feature-example-ipa{margin-left:9px}.sound-card{min-height:248px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">ə</span><span>音标练习室</span></div>
+      <div class="top-right"><span>真人发音 · IPA</span><span class="top-dot" aria-hidden="true"></span><strong>44 个音标</strong></div>
+    </header>
+    <div class="shell">
+      <aside class="sidebar" aria-label="音标分类">
+        <div class="side-label">学习目录</div>
+        <nav class="nav" id="desktop-nav"></nav>
+        <div class="side-progress">
+          <div class="side-progress-head"><span>已掌握</span><strong id="progress-number">0 / 44</strong></div>
+          <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+          <p>点击卡片右上角的标记，记录学习进度</p>
+        </div>
+      </aside>
+      <main class="content">
+        <nav class="mobile-nav" id="mobile-nav" aria-label="音标分类"></nav>
+        <div class="heading-row">
+          <div><div class="eyebrow">EXPLORE THE SOUNDS</div><h1>听见每一个音</h1><p>44 个音标 · 132 个真人发音例词</p></div>
+          <div class="heading-counter">当前显示 <strong id="shown-count">44</strong> 个音标</div>
+        </div>
+        <section class="feature" aria-label="当前音标">
+          <div class="feature-main">
+            <div class="eyebrow" id="feature-group">长元音 · LONG VOWEL</div>
+            <div class="feature-sound"><span class="feature-symbol" id="feature-symbol">/iː/</span><button class="round-play" id="feature-play" type="button" title="播放 /iː/ 的真人发音" aria-label="播放 /iː/ 的真人发音"><span class="play-glyph" aria-hidden="true"></span></button></div>
+            <div class="feature-name" id="feature-name">长元音 /iː/</div>
+            <p class="feature-tip" id="feature-tip">嘴角向两侧展开，舌位抬高，把声音适当拉长。</p>
+          </div>
+          <div class="feature-example"><div class="eyebrow">EXAMPLE WORDS · 例词</div><div class="feature-examples" id="feature-examples"></div></div>
+        </section>
+        <div class="toolbar"><div class="section-title" id="section-title">全部音标<small id="section-subtitle">VOWELS & CONSONANTS</small></div><div class="tools"><label class="search"><span class="search-icon" aria-hidden="true"></span><input id="search" type="search" placeholder="搜索音标或例词" aria-label="搜索音标或例词"></label><button class="tool-btn" id="learned-filter" type="button" aria-pressed="false">已掌握</button></div></div>
+        <div class="grid" id="sound-grid" aria-live="polite"></div>
+        <div class="footer-note">单元音来源：<a href="https://www.ipachart.com/" target="_blank" rel="noopener">IPA Chart</a>（<a href="https://github.com/VV-yuna/english-ipa-learning/blob/main/THIRD_PARTY_NOTICES.md" target="_blank" rel="noopener">来源说明</a>）。双元音采用 <a href="https://ipachart.app/" target="_blank" rel="noopener">IPAChart.app</a> 录音中的一次完整发音（<a href="audio/LICENSE-MIT.txt">授权说明</a>）。辅音示范来自 <a href="https://soundsofspeech.uiowa.edu/" target="_blank" rel="noopener">爱荷华大学 Sounds of Speech</a>；例词真人英音来自 <a href="https://www.oxfordlearnersdictionaries.com/" target="_blank" rel="noopener">牛津学习词典</a>。录音已保存于本地，可离线播放（<a href="audio/SOURCES.json">文件来源</a>）。</div>
+      </main>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script>
+    const groups = [
+      {id:'all', label:'全部音标', en:'VOWELS & CONSONANTS'},
+      {id:'vowels', label:'元音', en:'VOWELS'},
+      {id:'short', label:'短元音', en:'SHORT VOWELS'},
+      {id:'long', label:'长元音', en:'LONG VOWELS'},
+      {id:'diphthong', label:'双元音', en:'DIPHTHONGS'},
+      {id:'consonants', label:'辅音', en:'CONSONANTS'},
+      {id:'plosive', label:'爆破音', en:'PLOSIVES'},
+      {id:'fricative', label:'摩擦音', en:'FRICATIVES'},
+      {id:'affricate', label:'破擦音', en:'AFFRICATES'},
+      {id:'nasal', label:'鼻音', en:'NASALS'},
+      {id:'approximant', label:'近音', en:'APPROXIMANTS'}
+    ];
+    const sounds = [
+      ['ɪ','short','sit','sɪt','坐','嘴微张，舌位较高，短促发音。'],
+      ['e','short','bed','bed','床','嘴自然张开，舌前部稍抬起。'],
+      ['æ','short','cat','kæt','猫','嘴张得较大，舌位靠前，发短音。'],
+      ['ʌ','short','cup','kʌp','杯子','嘴自然张开，舌放松，声音短促。'],
+      ['ɒ','short','hot','hɒt','热的','嘴唇圆起，开口较大，发短音。'],
+      ['ʊ','short','book','bʊk','书','嘴唇稍圆，舌后部抬起，短促收声。'],
+      ['ə','short','about','əˈbaʊt','关于','弱读音，口腔放松，轻轻发出。'],
+      ['iː','long','see','siː','看见','嘴角向两侧展开，舌位抬高，把声音适当拉长。'],
+      ['ɑː','long','car','kɑː','汽车','嘴张大，舌位靠后，声音拉长。'],
+      ['ɔː','long','law','lɔː','法律','嘴唇收圆，舌位靠后，声音拉长。'],
+      ['uː','long','blue','bluː','蓝色','嘴唇收圆向前，舌后部抬高，拉长发音。'],
+      ['ɜː','long','bird','bɜːd','鸟','嘴唇放松，舌身居中，把声音拉长。'],
+      ['eɪ','diphthong','day','deɪ','一天','从 /e/ 平滑滑向 /ɪ/，口型逐渐收窄。'],
+      ['aɪ','diphthong','my','maɪ','我的','从张口的 /a/ 滑向 /ɪ/。'],
+      ['ɔɪ','diphthong','boy','bɔɪ','男孩','从圆唇的 /ɔ/ 滑向 /ɪ/。'],
+      ['aʊ','diphthong','now','naʊ','现在','从张口的 /a/ 滑向圆唇的 /ʊ/。'],
+      ['əʊ','diphthong','go','ɡəʊ','去','从中性的 /ə/ 滑向圆唇的 /ʊ/。'],
+      ['ɪə','diphthong','near','nɪə','附近','从 /ɪ/ 滑向轻弱的 /ə/。'],
+      ['eə','diphthong','hair','heə','头发','从 /e/ 滑向轻弱的 /ə/。'],
+      ['ʊə','diphthong','pure','pjʊə','纯净的','从圆唇的 /ʊ/ 滑向 /ə/；部分口音会合并此音。'],
+      ['p','plosive','pen','pen','钢笔','双唇闭合后迅速打开，声带不振动。'],
+      ['b','plosive','bag','bæɡ','包','双唇闭合后迅速打开，声带振动。'],
+      ['t','plosive','tea','tiː','茶','舌尖抵上齿龈后弹开，声带不振动。'],
+      ['d','plosive','dog','dɒɡ','狗','舌尖抵上齿龈后弹开，声带振动。'],
+      ['k','plosive','key','kiː','钥匙','舌后部抵软腭后放开，声带不振动。'],
+      ['ɡ','plosive','goat','ɡəʊt','山羊','舌后部抵软腭后放开，声带振动。'],
+      ['f','fricative','fish','fɪʃ','鱼','上齿轻触下唇，让气流摩擦而出。'],
+      ['v','fricative','very','ˈveri','非常','上齿轻触下唇，声带振动。'],
+      ['θ','fricative','think','θɪŋk','思考','舌尖轻触上下齿间，送出气流。'],
+      ['ð','fricative','this','ðɪs','这个','舌尖轻触上下齿间，同时让声带振动。'],
+      ['s','fricative','sun','sʌn','太阳','舌尖靠近上齿龈，气流从缝隙通过。'],
+      ['z','fricative','zoo','zuː','动物园','舌尖靠近上齿龈，气流摩擦且声带振动。'],
+      ['ʃ','fricative','ship','ʃɪp','船','双唇稍圆，舌靠近齿龈后方送气。'],
+      ['ʒ','fricative','vision','ˈvɪʒən','视力','舌靠近齿龈后方，摩擦发声并振动声带。'],
+      ['h','fricative','hat','hæt','帽子','喉部送出轻气流，口型随下一个元音变化。'],
+      ['tʃ','affricate','chair','tʃeə','椅子','先阻断气流，再以 /ʃ/ 的口型释放。'],
+      ['dʒ','affricate','jump','dʒʌmp','跳','先阻断气流，再以 /ʒ/ 的口型释放。'],
+      ['m','nasal','man','mæn','男人','双唇闭合，让声音从鼻腔通过。'],
+      ['n','nasal','no','nəʊ','不','舌尖抵上齿龈，让声音从鼻腔通过。'],
+      ['ŋ','nasal','sing','sɪŋ','唱歌','舌后部抬起，让声音从鼻腔通过。'],
+      ['l','approximant','light','laɪt','光','舌尖抵上齿龈，气流从舌侧通过。'],
+      ['r','approximant','red','red','红色','舌尖向后收，不接触上颚。'],
+      ['j','approximant','yes','jes','是','舌前部抬高，快速滑向后面的元音。'],
+      ['w','approximant','we','wiː','我们','嘴唇先收圆，再快速滑向后面的元音。']
+    ].map(([symbol,group,word,ipa,cn,tip])=>({symbol,group,word,ipa,cn,tip}));
+    const exampleData = [
+      ["ɪ",["sit","sɪt"],["fish","fɪʃ"],["live","lɪv"]],
+      ["e",["bed","bed"],["pen","pen"],["red","red"]],
+      ["æ",["cat","kæt"],["bad","bæd"],["hand","hænd"]],
+      ["ʌ",["cup","kʌp"],["bus","bʌs"],["love","lʌv"]],
+      ["ɒ",["hot","hɒt"],["box","bɒks"],["stop","stɒp"]],
+      ["ʊ",["book","bʊk"],["good","ɡʊd"],["put","pʊt"]],
+      ["ə",["about","əˈbaʊt"],["teacher","ˈtiːtʃə"],["banana","bəˈnɑːnə"]],
+      ["iː",["see","siː"],["tea","tiː"],["green","ɡriːn"]],
+      ["ɑː",["car","kɑː"],["far","fɑː"],["start","stɑːt"]],
+      ["ɔː",["law","lɔː"],["talk","tɔːk"],["ball","bɔːl"]],
+      ["uː",["blue","bluː"],["food","fuːd"],["moon","muːn"]],
+      ["ɜː",["bird","bɜːd"],["work","wɜːk"],["learn","lɜːn"]],
+      ["eɪ",["day","deɪ"],["face","feɪs"],["name","neɪm"]],
+      ["aɪ",["time","taɪm"],["light","laɪt"],["five","faɪv"]],
+      ["ɔɪ",["boy","bɔɪ"],["toy","tɔɪ"],["voice","vɔɪs"]],
+      ["aʊ",["now","naʊ"],["house","haʊs"],["out","aʊt"]],
+      ["əʊ",["home","həʊm"],["open","ˈəʊpən"],["road","rəʊd"]],
+      ["ɪə",["near","nɪə"],["here","hɪə"],["idea","aɪˈdɪə"]],
+      ["eə",["hair","heə"],["bear","beə"],["care","keə"]],
+      ["ʊə",["tour","tʊə"],["cure","kjʊə"],["tourist","ˈtʊərɪst"]],
+      ["p",["pen","pen"],["pin","pɪn"],["map","mæp"]],
+      ["b",["bag","bæɡ"],["book","bʊk"],["baby","ˈbeɪbi"]],
+      ["t",["tea","tiː"],["top","tɒp"],["ten","ten"]],
+      ["d",["dog","dɒɡ"],["day","deɪ"],["red","red"]],
+      ["k",["key","kiː"],["cat","kæt"],["book","bʊk"]],
+      ["ɡ",["goat","ɡəʊt"],["big","bɪɡ"],["bag","bæɡ"]],
+      ["f",["fish","fɪʃ"],["fine","faɪn"],["coffee","ˈkɒfi"]],
+      ["v",["very","ˈveri"],["love","lʌv"],["seven","ˈsevən"]],
+      ["θ",["think","θɪŋk"],["three","θriː"],["thank","θæŋk"]],
+      ["ð",["this","ðɪs"],["that","ðæt"],["mother","ˈmʌðə"]],
+      ["s",["sun","sʌn"],["see","siː"],["bus","bʌs"]],
+      ["z",["zoo","zuː"],["zero","ˈzɪərəʊ"],["music","ˈmjuːzɪk"]],
+      ["ʃ",["ship","ʃɪp"],["she","ʃiː"],["fish","fɪʃ"]],
+      ["ʒ",["vision","ˈvɪʒən"],["measure","ˈmeʒə"],["usually","ˈjuːʒuəli"]],
+      ["h",["hat","hæt"],["home","həʊm"],["hello","helˈəʊ"]],
+      ["tʃ",["chair","tʃeə"],["cheese","tʃiːz"],["teacher","ˈtiːtʃə"]],
+      ["dʒ",["jump","dʒʌmp"],["job","dʒɒb"],["age","eɪdʒ"]],
+      ["m",["man","mæn"],["map","mæp"],["mum","mʌm"]],
+      ["n",["name","neɪm"],["sun","sʌn"],["dinner","ˈdɪnə"]],
+      ["ŋ",["sing","sɪŋ"],["long","lɒŋ"],["king","kɪŋ"]],
+      ["l",["light","laɪt"],["like","laɪk"],["school","skuːl"]],
+      ["r",["red","red"],["right","raɪt"],["room","ruːm"]],
+      ["j",["yes","jes"],["you","juː"],["year","jɪə"]],
+      ["w",["water","ˈwɔːtə"],["window","ˈwɪndəʊ"],["one","wʌn"]],
+    ];
+    const examplesBySymbol=new Map(exampleData.map(([symbol,...examples])=>[symbol,examples.map(([word,ipa])=>({word,ipa}))]));
+    sounds.forEach(sound=>{sound.examples=examplesBySymbol.get(sound.symbol);sound.word=sound.examples[0].word;sound.ipa=sound.examples[0].ipa});
+    const groupNames={short:'短元音',long:'长元音',diphthong:'双元音',plosive:'爆破音',fricative:'摩擦音',affricate:'破擦音',nasal:'鼻音',approximant:'近音'};
+    const groupEnglish={short:'SHORT VOWEL',long:'LONG VOWEL',diphthong:'DIPHTHONG',plosive:'PLOSIVE',fricative:'FRICATIVE',affricate:'AFFRICATE',nasal:'NASAL',approximant:'APPROXIMANT'};
+    const iowa='audio/consonants/';
+    const audioSources={
+      'ɪ':'audio/i-short.wav','e':'audio/e.wav','æ':'audio/ae.wav','ʌ':'audio/caret.wav',
+      'ɒ':'audio/o-short.wav','ʊ':'audio/u-short.wav','ə':'audio/schwa.wav',
+      'iː':'audio/i-long.wav','ɑː':'audio/a-long.wav','ɔː':'audio/aw-long.wav',
+      'uː':'audio/u-long.wav','ɜː':'audio/er-long.wav',
+      'eɪ':'audio/ei.wav','aɪ':'audio/ai.wav','ɔɪ':'audio/oi.wav','aʊ':'audio/au.wav',
+      'əʊ':'audio/oh.wav','ɪə':'audio/ia.wav','eə':'audio/ea.wav','ʊə':'audio/ua.wav',
+      'p':iowa+'p-sound/examples/sound.mp4','b':iowa+'b-sound/examples/sound.mp4',
+      't':iowa+'t-sound/examples/sound.mp4','d':iowa+'d-sound/examples/sound.mp4',
+      'k':iowa+'k-sound/examples/sound.mp4','ɡ':iowa+'g-sound/examples/sound.mp4',
+      'f':iowa+'f-sound/examples/sound.mp4','v':iowa+'v-sound/examples/sound.mp4',
+      'θ':iowa+'es/theta-sound/examples/sound.mp4','ð':iowa+'es/eth-low-sound/examples/sound.mp4',
+      's':iowa+'s-sound/examples/sound.mp4','z':iowa+'z-sound/examples/sound.mp4',
+      'ʃ':iowa+'es/zh1-sound/examples/sound.mp4','ʒ':iowa+'es/zh2-sound/examples/sound.mp4',
+      'h':iowa+'h-sound/examples/sound.mp4','tʃ':iowa+'es/ch-sound/examples/sound.mp4',
+      'dʒ':iowa+'es/jya-sound/examples/sound.mp4','m':iowa+'m-sound/examples/sound.mp4',
+      'n':iowa+'n-sound/examples/sound.mp4','ŋ':iowa+'ng-sound/examples/sound.mp4',
+      'l':iowa+'l-sound/examples/sound.mp4','r':iowa+'r-sound/examples/sound.mp4',
+      'j':iowa+'es/yot-sound/examples/sound.mp4','w':iowa+'es/w-sound/examples/sound.mp4'
+    };
+    const vowels=new Set(['short','long','diphthong']);
+    const $=id=>document.getElementById(id);
+    const audio=new Audio();
+    audio.preload='none';
+    let activeGroup='all',selected=sounds[7],showLearned=false,playing=null,playbackId=0,toastTimer;
+    let learned=new Set();
+    try{learned=new Set(JSON.parse(localStorage.getItem('ipa-learned-v1')||'[]'))}catch{}
+    function inGroup(sound,id){return id==='all'||sound.group===id||(id==='vowels'&&vowels.has(sound.group))||(id==='consonants'&&!vowels.has(sound.group))}
+    function countFor(id){return sounds.filter(sound=>inGroup(sound,id)).length}
+    function updateProgress(){const count=learned.size;$('progress-number').textContent=`${count} / ${sounds.length}`;$('progress-fill').style.width=`${count/sounds.length*100}%`}
+    function renderNav(){
+      $('desktop-nav').innerHTML=groups.map((g,i)=>`${i===1||i===5?'<div class="nav-divider"></div>':''}<button type="button" data-group="${g.id}" class="${g.id===activeGroup?'active':''} ${['short','long','diphthong','plosive','fricative','affricate','nasal','approximant'].includes(g.id)?'nav-sub':''}" aria-current="${g.id===activeGroup?'page':'false'}"><span>${g.label}</span><span class="count">${countFor(g.id)}</span></button>`).join('');
+      $('mobile-nav').innerHTML=groups.map(g=>`<button type="button" data-group="${g.id}" class="${g.id===activeGroup?'active':''}" aria-current="${g.id===activeGroup?'page':'false'}">${g.label}</button>`).join('');
+    }
+    function selectSound(sound){selected=sound;$('feature-group').textContent=`${groupNames[sound.group]} · ${groupEnglish[sound.group]}`;$('feature-symbol').textContent=`/${sound.symbol}/`;$('feature-name').textContent=`${groupNames[sound.group]} /${sound.symbol}/`;$('feature-tip').textContent=sound.tip;$('feature-examples').innerHTML=sound.examples.map((example,index)=>`<div class="feature-example-row"><div><span class="feature-example-word">${example.word}</span><span class="feature-example-ipa">/${example.ipa}/</span></div><button class="play-icon" type="button" data-feature-example="${index}" aria-label="播放例词 ${example.word} 的真人英音" title="播放 ${example.word} 的真人英音"><span class="play-glyph" aria-hidden="true"></span></button></div>`).join('');$('feature-play').setAttribute('aria-label',`播放 /${sound.symbol}/ 的真人发音`);$('feature-play').title=`播放 /${sound.symbol}/ 的真人发音`}
+    function renderGrid(){
+      const query=$('search').value.trim().toLocaleLowerCase();
+      const filtered=sounds.filter(s=>inGroup(s,activeGroup)&&(!showLearned||learned.has(s.symbol))&&(!query||`${s.symbol} ${s.examples.map(e=>`${e.word} ${e.ipa}`).join(' ')} ${groupNames[s.group]}`.toLocaleLowerCase().includes(query)));
+      const g=groups.find(x=>x.id===activeGroup);$('section-title').firstChild.textContent=g.label;$('section-subtitle').textContent=g.en;$('shown-count').textContent=filtered.length;
+      $('sound-grid').innerHTML=filtered.length?filtered.map(s=>`<article class="sound-card" data-symbol="${s.symbol}"><div class="card-top"><span class="card-tag ${s.group==='diphthong'?'diphthong':vowels.has(s.group)?'':'consonant'}">${groupNames[s.group]}</span><button class="card-mark ${learned.has(s.symbol)?'learned':''}" type="button" data-action="mark" aria-label="${learned.has(s.symbol)?'取消掌握':'标记已掌握'} /${s.symbol}/" title="${learned.has(s.symbol)?'取消掌握':'标记已掌握'}">${learned.has(s.symbol)?'★':'☆'}</button></div><button class="card-symbol" type="button" data-action="select" aria-label="查看并播放 /${s.symbol}/">/${s.symbol}/</button><div class="card-examples">${s.examples.map((e,index)=>`<div class="card-example"><div class="card-example-text"><span class="card-word">${e.word}</span><span class="card-ipa">/${e.ipa}/</span></div><button class="play-icon" type="button" data-action="example" data-example-index="${index}" aria-label="播放例词 ${e.word} 的真人英音" title="播放 ${e.word} 的真人英音"><span class="play-glyph" aria-hidden="true"></span></button></div>`).join('')}</div></article>`).join(''):'<div class="empty"><strong>没有找到音标</strong>试试其他分类或搜索词。</div>';
+    }
+    function setGroup(id){activeGroup=id;renderNav();renderGrid()}
+    function toast(message){const el=$('toast');el.textContent=message;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),3000)}
+    function stopPlaying(){playbackId++;audio.pause();audio.currentTime=0;if(playing){playing.classList.remove('playing');playing=null}}
+    function exampleAudioUrl(word){return `audio/words/${word.toLowerCase()}.mp3`}
+    function playExample(sound,index,button){
+      if(selected!==sound)selectSound(sound);
+      stopPlaying();
+      const id=playbackId,example=sound.examples[index];
+      audio.src=exampleAudioUrl(example.word);
+      playing=button;button.classList.add('playing');
+      audio.play().catch(()=>{if(id!==playbackId)return;button.classList.remove('playing');if(playing===button)playing=null;toast(`例词 ${example.word} 播放失败，请检查本地音频文件。`)});
+    }
+    function playSound(sound,button){
+      selectSound(sound);
+      stopPlaying();
+      const id=playbackId;
+      audio.src=audioSources[sound.symbol];
+      playing=button;button.classList.add('playing');
+      audio.play().catch(()=>{if(id!==playbackId)return;button.classList.remove('playing');if(playing===button)playing=null;toast('录音播放失败，请检查本地音频文件。')});
+    }
+    audio.addEventListener('ended',()=>{if(playing){playing.classList.remove('playing');playing=null}});
+    document.addEventListener('click',event=>{
+      const nav=event.target.closest('[data-group]');if(nav){setGroup(nav.dataset.group);return}
+      const action=event.target.closest('[data-action]');if(!action)return;
+      const card=action.closest('[data-symbol]');const sound=sounds.find(s=>s.symbol===card?.dataset.symbol);if(!sound)return;
+      if(action.dataset.action==='mark'){learned.has(sound.symbol)?learned.delete(sound.symbol):learned.add(sound.symbol);try{localStorage.setItem('ipa-learned-v1',JSON.stringify([...learned]))}catch{}updateProgress();renderGrid();return}
+      if(action.dataset.action==='select'||action.dataset.action==='play')playSound(sound,action);
+      if(action.dataset.action==='example')playExample(sound,Number(action.dataset.exampleIndex),action);
+    });
+    $('feature-play').addEventListener('click',event=>playSound(selected,event.currentTarget));
+    $('feature-examples').addEventListener('click',event=>{const button=event.target.closest('[data-feature-example]');if(button)playExample(selected,Number(button.dataset.featureExample),button)});
+    $('search').addEventListener('input',renderGrid);
+    $('learned-filter').addEventListener('click',event=>{showLearned=!showLearned;event.currentTarget.classList.toggle('active',showLearned);event.currentTarget.setAttribute('aria-pressed',showLearned);renderGrid()});
+    window.addEventListener('beforeunload',stopPlaying);
+    renderNav();updateProgress();renderGrid();selectSound(selected);
+  </script>
+</body>
+</html>
